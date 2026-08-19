@@ -12,6 +12,7 @@ in `sources.json`.
 - [Try it without installing](#try-it-without-installing)
 - [Add it to your flake](#add-it-to-your-flake)
 - [Updating](#updating)
+- [License](#license)
 
 ## Try it without installing
 
@@ -95,7 +96,16 @@ It fetches latest stable for `linux-x64` and `linux-arm64`, refuses to
 update if those versions diverge, prefetches hashes, writes `sources.json`,
 and `nix build`s. Nothing is committed.
 
+## License
+
+The Nix expressions and scripts in this repo are [MIT](LICENSE). That covers
+the packaging only.
+
+Cursor itself is proprietary (Nix `unfree`). This flake does not ship the
+AppImage; Nix downloads it from Cursor at build time. Using Cursor is still
+under [Anysphere’s terms](https://cursor.com/terms-of-service). This project
+is unofficial and not affiliated with Anysphere.
+
 ---
 
-> This is a packaging wrapper around Cursor's official Linux AppImage. It is
-> not affiliated with Anysphere / Cursor. Built and tested on `x86_64-linux`.
+> Built and tested on `x86_64-linux`.
