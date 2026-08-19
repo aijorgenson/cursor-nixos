@@ -1,6 +1,5 @@
 This repository contains Nix packaging for Cursor (flake.nix, package.nix,
-update scripts, GitHub Actions, and related files). That packaging is
-copyright (c) 2026 Andrew Jorgenson <git@jorgenson.dev> and is licensed
+update scripts, GitHub Actions, and related files). That packaging is licensed
 under the MIT License below.
 
 This repository does **not** include Cursor, and the MIT License does **not**
