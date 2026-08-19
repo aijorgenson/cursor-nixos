@@ -17,7 +17,7 @@ in `sources.json`.
 ## Try it without installing
 
 ```sh
-nix run github:aijorgenson/cursor --accept-flake-config
+nix run github:aijorgenson/cursor-nixos --accept-flake-config
 ```
 
 (`nix run` from this flake sets `allowUnfree` for the build. Cursor itself
@@ -34,7 +34,7 @@ Cursor is unfree, so your NixOS config already needs
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     cursor = {
-      url = "github:aijorgenson/cursor";
+      url = "github:aijorgenson/cursor-nixos";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
