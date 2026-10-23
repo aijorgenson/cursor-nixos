@@ -1,13 +1,13 @@
 {
-  "version": "3.26.16",
+  "version": "3.27.6",
   "sources": {
     "x86_64-linux": {
-      "url": "https://downloads.cursor.com/production/8fcb8ace5c73fa31f2e2707fd6783160e4ed3e49/linux/x64/Cursor-3.26.16-x86_64.AppImage",
-      "hash": "sha256-2eaL9MIFGeNL8ZTwQ+SAVzDFv9eIImuiMMF/QFCGxAE="
+      "url": "https://downloads.cursor.com/production/f7119520544accb8dcf6d27119b9f1963d8ee5ae/linux/x64/Cursor-3.27.6-x86_64.AppImage",
+      "hash": "sha256-rifOXrVh0k1JV+C7/n9qR8Op2/jENsAKV7gleaD30t0="
     },
     "aarch64-linux": {
-      "url": "https://downloads.cursor.com/production/8fcb8ace5c73fa31f2e2707fd6783160e4ed3e49/linux/arm64/Cursor-3.26.16-aarch64.AppImage",
-      "hash": "sha256-bVyFFsolTFC5/M9/WdjMuZ47amLfi3hKxaSBaAmcCnY="
+      "url": "https://downloads.cursor.com/production/f7119520544accb8dcf6d27119b9f1963d8ee5ae/linux/arm64/Cursor-3.27.6-aarch64.AppImage",
+      "hash": "sha256-lbNRMNNkjmx08jodDfNh0VW1bAHUEUtAF/qozWrEeKU="
     }
   }
 }
